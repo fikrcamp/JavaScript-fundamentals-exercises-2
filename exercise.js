@@ -34,28 +34,28 @@ let neighbours = ['somalia', 'Ethiopia', 'Kenya','somaliland'];
 let populations4 = [16, 115, 56, 12]; console.log(populations.length === 4);
 
 //8
-let listOfNeighbours = ['somali', 'Ethiopia', 'Kenya', 'somaliland'];
-for (let i = 0; i <listOfNeighbours.length; i++){
-    console.log(listOfNeighbours[i])
+let SONeighbours = ['somali', 'Ethiopia', 'Kenya', 'somaliland'];
+for (let i = 0; i <SONeighbours.length; i++){
+    console.log(SONeighbours[i])
 }
 
 //9 reverse order for loop
-for (let i = listOfNeighbours.length -1 ; i >= 0; i--){
+for (let i = SONeighbours.length -1 ; i >= 0; i--){
     console.log(listOfNeighbours[i])
 }
 
 //10
-let listOfNeighbours1  = ['somali', 'Ethiopia', 'Kenya', 'somaliland'];
+let SONeighbours1  = ['somali', 'Ethiopia', 'Kenya', 'somaliland'];
 let i = 0;
 while (i <4) {
-    console.log(listOfNeighbours1[i])
+    console.log(SONeighbours1[i])
     i++;
 }
 
 // reverse order while loop 
 let x = 3;
 while (x>= 0) {
-    console.log(listOfNeighbours1[x])
+    console.log(SONeighbours1[x])
     x--
 }
 
